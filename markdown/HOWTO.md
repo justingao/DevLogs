@@ -21,7 +21,7 @@ atx 是在行首插入 1~6 个 # 表示标题的 1~6 阶。
     > This is a blockquote.
     >
     > ## This is an H2 in a blockquote.
-
+链接到[横线](#hr)。
 
 
 ## 修辞和强调
@@ -112,7 +112,7 @@ markdown 支持一些比较简单的 url 或者 email 地址被自动转换为�
 
 
 
-## 横线
+## <a id="hr"></a>横线
 3 个或者更多个 *、- 或者 _ 单独放在一行就可以生成一条横线（<hr/>）。
 例如：    
     * * *
