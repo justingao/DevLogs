@@ -88,31 +88,36 @@ This is an [example link](http://leigao.org/ "Link Title").
 markdown 中图片和链接的方式一样的：
 
 行内方式：      
+
     ![alt text for the image](/path/to/the/image "Option Title")
 
 参考方式：      
+
     ![alt text for the image][id]
     [id]: /path/to/the/image "Option Title"
 
 
 
 ## 代码
-markdown 中使用 ``` （反引号）表示代码。代码块中的 `&`、`>`、`<` 会被自动转换为 HTML 实体。        
+markdown 中使用 \` （反引号）表示代码。代码块中的 `&`、`>`、`<` 会被自动转换为 HTML 实体。        
+
     I strongly recommend aginst using any `<blink>` tags.
 如果要插入一大段代码，只要每行都缩进 4 个空格或者一个 Tab 就可以了。代码块中的 `&`、`>`、`<` 会被自动转换为 HTML 实体。
 
 
 
 ## 自动链接
-markdown 支持一些比较简单的 url 或者 email 地址被自动转换为链接方式，只要用 <> 括起来即可：
-<http://example.com>
-<address@example.com>
+markdown 支持一些比较简单的 url 或者 email 地址被自动转换为链接方式，只要用 `<>` 括起来即可：
+
+    <http://example.com>
+    <address@example.com>
 会被自动转换为 http 链接和 mailto 邮件地址链接。
 
 
 
 ## 字符转义
-如果期望上面的这些关键字符不被转义，在其前面加上 \ 就可以了，markdown 中的保留字符有：
+如果期望上面的这些关键字符不被转义，在其前面加上 \\ 就可以了，markdown 中的保留字符有：
+
     \
     `
     *
@@ -129,14 +134,15 @@ markdown 支持一些比较简单的 url 或者 email 地址被自动转换为�
 
 
 ## 换行与分段
-空一行（也就是两个回车）代表分段（<p>）；
-行末尾加上两个或者更多空格代表换行（<br/>），一个空格会被当做普通空格处理。
+空一行（也就是两个回车）代表分段（`<p>`）；
+行末尾加上两个或者更多空格代表换行（`<br/>`），一个空格会被当做普通空格处理。
 
 
 
-## <a id="hr"></a>横线
-3 个或者更多个 *、- 或者 _ 单独放在一行就可以生成一条横线（<hr/>）。
+## 横线
+3 个或者更多个 `*`、`-` 或者 `_` 单独放在一行就可以生成一条横线（`<hr/>`）。        
 例如：    
+
     * * *
     ***
     - - - - - -
