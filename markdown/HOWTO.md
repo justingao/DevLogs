@@ -18,9 +18,16 @@ atx 是在行首插入 1~6 个 `#` 表示标题的 1~6 阶。
     
     ### Header 3
     
+引用示例：  
+
     > This is a blockquote.
     >
-    > ## This is an H2 in a blockquote.
+    > ## This is an H2 in a blockquote.     
+
+效果：
+> This is a blockquote.
+>
+> ## This is an H2 in a blockquote.     
 
 
 ## 修辞和强调
@@ -28,14 +35,15 @@ markdown 使用 `*` 和 `_` 表示修辞和强调。
 `*`/`_` 会生成 `<em></em>` 标记对（HTML展示出来是斜体的效果），`**`/`__` 会生成 `<strong></strong>` 标记对（HTML展示出来是加粗的效果）。      
 `~~` 表示删除线。       
 
-    Some of these words *are emphasized*.
-    Some of these words _are emphasized also_.
-    Use two asterisks for **strong emphasized**.
-    Or, if you prefer, __use two underscores instead__.
+    Some of these words *are emphasized*.       
+    Some of these words _are emphasized also_.      
+    Use two asterisks for **strong emphasized**.        
+    Or, if you prefer, __use two underscores instead__.     
+
 效果是：
-Some of these words *are emphasized*.
-Some of these words _are emphasized also_.
-Use two asterisks for **strong emphasized**.
+Some of these words *are emphasized*.       
+Some of these words _are emphasized also_.      
+Use two asterisks for **strong emphasized**.        
 Or, if you prefer, __use two underscores instead__.
 
 
