@@ -45,7 +45,7 @@ markdown 使用 `*` 和 `_` 表示修辞和强调。
 Some of these words *are emphasized*.       
 Some of these words _are emphasized also_.      
 Use two asterisks for **strong emphasized**.        
-Or, if you prefer, __use two underscores instead__.
+Or, if you prefer, __use two underscores instead__.     
 ~~删除线~~的效果。      
 
 
@@ -88,19 +88,16 @@ This is an [example link](http://leigao.org/ "Link Title").
 markdown 中图片和链接的方式一样的：
 
 行内方式：      
-```
-![alt text for the image](/path/to/the/image "Option Title")
-```
+    ![alt text for the image](/path/to/the/image "Option Title")
 
 参考方式：      
-
     ![alt text for the image][id]
     [id]: /path/to/the/image "Option Title"
 
 
 
 ## 代码
-markdown 中使用 `\`` （反引号）表示代码。代码块中的 `&`、`>`、`<` 会被自动转换为 HTML 实体。        
+markdown 中使用 ``` （反引号）表示代码。代码块中的 `&`、`>`、`<` 会被自动转换为 HTML 实体。        
     I strongly recommend aginst using any `<blink>` tags.
 如果要插入一大段代码，只要每行都缩进 4 个空格或者一个 Tab 就可以了。代码块中的 `&`、`>`、`<` 会被自动转换为 HTML 实体。
 
