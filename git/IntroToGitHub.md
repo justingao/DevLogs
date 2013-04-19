@@ -5,7 +5,7 @@
 2.  下载并安装 Git 客户端工具。
 3.  设置 git 客户端（Windows 上是打开 Git Bash 工具进入命令行模式）：    
     ```
-    git config --global user.name "MyUserName" 
+    git config --global user.name "MyUserName"      
     git config --global user.email "MyE-mail" 
     ```
 4.  克隆服务器上的代码到本地：   
@@ -18,7 +18,7 @@
     ```
 6.  同步本地代码到服务器上：    
     ```
-    git remote add origin git@github.com:MyUserName/DevLogs.git 
+    git remote add origin git@github.com:MyUserName/DevLogs.git         
     git push -u origin master
     ```
 
@@ -47,7 +47,7 @@ git remote -v
 ```
 修改方式：    
 ```
-git remote remove origin
+git remote remove origin        
 git remote add origin git@github.com:MyUserName/DevLogs.git
 ```
 
